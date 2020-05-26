@@ -30,7 +30,7 @@ go build -o go-pg-domain-hex-actor ./cmd/server/main.go
 # Enhancement.
 In this repository I just make a very simple how we use it first, you can continue with it and let me know if you have any issues on it :).
 
-- Some suggestion:
+Some suggestion:
 + Use `https://github.com/golang-migrate/migrate` for create database and migrate.
 + Use `https://github.com/Masterminds/squirrel` for wrap your query.
 + Use `https://github.com/jackc/pgx` to replace `pg` for bester performance and support.
